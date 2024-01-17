@@ -39,3 +39,8 @@ ary = [1,2]
 a, b = ary
 p a
 p b
+
+#rubyの生まれた年を調べる
+ad = ARGV[0].to_i
+age = ad - 1993
+puts age
